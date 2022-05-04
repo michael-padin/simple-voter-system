@@ -25,8 +25,8 @@ public class Main {
 
         Main cand1 = new Main("Juan Luna", 101 );
         Main cand2 = new Main("Maria Clara", 102 );
-        Main cand3 = new Main("Juan Luna", 103 );
-        Main cand4 = new Main("Juan Luna", 104 );
+        Main cand3 = new Main("Jose Rizal", 103 );
+        Main cand4 = new Main("Andrei Boni", 104 );
 
         cand1.display1();
         System.out.println("Votes: "  );
@@ -68,13 +68,16 @@ public class Main {
         Main cand4Votes = new Main(totalVotes);
         totalVotes = 0;
 
-        System.out.println("\n-------------------------------------------");
+        System.out.println("\n------TOTAL VOTES OF EACH CANDIDATE------");
         cand1.display1();
         cand1Votes.display2();
+        System.out.println("\n");
         cand2.display1();
         cand2Votes.display2();
+        System.out.println("\n");
         cand3.display1();
         cand3Votes.display2();
+        System.out.println("\n");
         cand4.display1();
         cand4Votes.display2();
     }
